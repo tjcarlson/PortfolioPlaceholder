@@ -5,6 +5,7 @@ body {
 
 h1 {
     font-size: 72px;
+    margin: auto;
 }
 
 section.text {
@@ -17,12 +18,17 @@ section.text {
     margin: 120px;
     text-align: center;
     border-radius: 4px;
-    flex-direction: center;
+    flex-direction: column;
     align-items: center;
 }
 
-section.text h1 {
-    margin: auto;
+div.links {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    margin: 8px;
 }
 
 section.background {
