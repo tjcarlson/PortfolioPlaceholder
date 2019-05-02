@@ -11,6 +11,7 @@
 body {
   display: flex;
   height: 100vh;
+  cursor: url("/Assets/Ellipse.png");
 }
 
 h1 {
@@ -22,6 +23,7 @@ h1 {
 h2 {
   margin: 8px;
   font-family: Circular Medium;
+  cursor: pointer;
 }
 
 section.text {
