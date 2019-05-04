@@ -11,7 +11,13 @@
 body {
   display: flex;
   height: 100vh;
-  cursor: url("/Assets/Ellipse.png");
+  /*cursor: url(/Assets/Oval.svg), auto;*/
+
+  cursor: image-set(
+      "/Assets/cursor-regular-2x.png" 1x,
+      "/Assets/cursor-regular-2x.png" 2x
+    ),
+    pointer;
 }
 
 h1 {
