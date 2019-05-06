@@ -27,8 +27,12 @@ h1 {
 h2 {
   font-size: 32px;
   font-family: Circular Medium;
-  margin: 8px;
-  cursor: pointer;
+  margin: 16px;
+  cursor: -webkit-image-set(
+    url("Assets/cursor-link-1x.png") 1x,
+    url("Assets/cursor-link-2x.png") 2x
+  ),
+  pointer;
 }
 
 section.text {
@@ -46,6 +50,11 @@ section.text {
 a {
   color: #000000;
   text-decoration: none;
+  cursor: -webkit-image-set(
+      url("Assets/cursor-link-1x.png") 1x,
+      url("Assets/cursor-link-2x.png") 2x
+    ),
+    pointer;
 }
 
 div.links {
