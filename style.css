@@ -67,7 +67,7 @@ section.background {
   pointer-events: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   h1 {
     font-size: 52px;
   }
