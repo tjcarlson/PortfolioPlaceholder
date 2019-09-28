@@ -92,23 +92,9 @@ section.background {
 
   h1 {
     font-size: 64px;
-    color: white;
   }
 
   h2 {
     font-size: 24px;
-    color: white;
   }
-  section.text {
-  display: flex;
-  padding: 40px;
-  background-color: none;
-  position: relative;
-  opacity: 0;
-  flex-direction: column;
-  align-items: left;    
-  margin: 200px 32px 200px 32px;
-  text-align: left;
-}
-
 }
