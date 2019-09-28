@@ -80,6 +80,7 @@ section.background {
 @media (max-width: 1200px) {
   h1 {
     font-size: 52px;
+    color: #000000;
   }
 
   h2 {
@@ -105,11 +106,11 @@ section.background {
   padding: 40px;
   background-color: none;
   position: relative;
-  margin: 120px;
-  text-align: left;
   opacity: 0;
   flex-direction: column;
-  align-items: left;
+  align-items: left;    
+    margin: 200px 32px 200px 32px;
+    text-align: left;
 }
 
 }
