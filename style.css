@@ -74,6 +74,7 @@ section.background {
   background-attachment: fixed;
   mix-blend-mode: screen;
   pointer-events: none;
+  will-change: opacity;
 }
 
 @media (max-width: 1200px) {
